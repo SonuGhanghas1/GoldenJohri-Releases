@@ -9,22 +9,3 @@
     }
   }
 }
-
-### Step 4: Your New "Release Workflow"
-Whenever you want to push an update (e.g., changing from `0.1.1` to `0.1.2`), this is how you build it so the app knows it changed:
-
-1. **Bump the Version:** Change the `version` in both `package.json` and `tauri.conf.json` to `0.1.2`.
-2. **Expose your Private Key to the terminal:** Before building, Tauri needs your secret key to "sign" the update.
-   * If using **PowerShell**: `$env:TAURI_PRIVATE_KEY="contents of updater.key"`
-   * If using **CMD**: `set TAURI_PRIVATE_KEY=contents of updater.key`
-3. **Build:** Run `npm run tauri build`.
-4. **Upload:** Look in `src-tauri/target/release/bundle/msi/`. You will see three files:
-   * `Golden Johri_0.1.2_x64_en-US.msi`
-   * `Golden Johri_0.1.2_x64_en-US.zip` *(This is the magic background updater file)*
-   * `Golden Johri_0.1.2_x64_en-US.zip.sig`
-   Upload the `.zip` file to the "Releases" tab of your GitHub repo.
-5. **Update the JSON:** Edit the `updater.json` file on GitHub:
-   * Paste the contents of the `.sig` file into the `"signature"` field.
-   * Paste the direct download link to the `.zip` file into the `"url"` field.
-
-**That's it!** The next time your users open version `0.1.1`, the app reads `updater.json`, sees version `0.1.2`, automatically downloads the `.zip`, verifies your signature, and politely asks if they'd like to restart to apply it.
