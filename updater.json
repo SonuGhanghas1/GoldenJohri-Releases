@@ -1,11 +1,11 @@
 {
-  "version": "0.1.6",
+  "version": "0.1.7",
   "notes": "Added exciting new features!",
   "pub_date": "2026-03-13T00:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSGZqeE9ZTDU5UjJBUUZxUU44QURWUWZqWjBiNDZiK29tMEVFWURyZklFRHFKZnVSZFQrTlNKOE5ySzRnZEE0c1ZQVlpFcG8rOStMRG9JTDBVTW5FOGUyUW45WEN6U1FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTk5NjU3CWZpbGU6R29sZGVuIEpvaHJpXzAuMS42X3g2NF9lbi1VUy5tc2kuemlwCjVGRy9sVzZhcHl3YU1FL2JlQXJmWENqbTZMZ1hYOXNwRmd5Z1hERzJhQ0Zzb1E1RUFDS2haR1g1U0dJRHI2UnRKSjllajFERUI3Qy9tM3lVSzkxTkRRPT0K",
-      "url": "https://github.com/SonuGhanghas1/GoldenJohri-Releases/releases/download/v0.1.6/Golden.Johri_0.1.6_x64_en-US.msi.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSGZqeE9ZTDU5UjZuZnVnSmtvc3ViNlc5N3JmOW55UXJDRk1odUtFVHVxM0IwV3BrRUMwUnh3cm1hWlhjV1VVTmkrYXRscmxaNjlyZHFEV0hTOU43OEFrekpWWm5lVVFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDQ0MzIzCWZpbGU6R29sZGVuIEpvaHJpXzAuMS43X3g2NF9lbi1VUy5tc2kuemlwCkdHVnRxQk4vaU5jblZrL2tHVjhYUjRpV3huZk14TUNyL0oxZ2VMSmR5NHVWOVNQUCttMW8wWWd4RnZxYVBMamFyOFZybGprRWZ4VzhDT20vN09KcUJRPT0K",
+      "url": "https://github.com/SonuGhanghas1/GoldenJohri-Releases/archive/refs/tags/v0.1.7.zip"
     }
   }
 }
